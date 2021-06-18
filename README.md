@@ -6,7 +6,8 @@ This application is to write, save, and delete notes. This NodeJS application us
 Here is a deployment link to Heroku from this GitHub repo. [Live NoteTaker App] https://syed-notetaker.herokuapp.com/
 
 
-![NoteTaker homepage](public/assets/images/homepage.png) (public/assets/images/Notetaker-list.png)
+![NoteTaker homepage](public/assets/images/homepage.PNG) 
+![NoteTaker Notespage](public/assets/images/Notetaker-list.PNG)
 
 ## Usage
 The application uses the following API routes:
