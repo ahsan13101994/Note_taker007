@@ -7,7 +7,7 @@ Here is a deployment link to Heroku from this GitHub repo. [Live NoteTaker App] 
 
 
 ![NoteTaker homepage](public/assets/images/homepage.PNG) 
-![NoteTaker Notespage](public/assets/images/Notetaker-list.PNG)
+![NoteTaker Notespage](public/assets/images/NoteTaker-list.PNG)
 
 ## Usage
 The application uses the following API routes:
