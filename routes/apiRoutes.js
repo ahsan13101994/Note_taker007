@@ -1,7 +1,9 @@
 // Required Modules
 const fs = require("fs");
+const notesList = require("../db/db.json");
 
 module.exports = function(app){
+
 // Add to database
     function addToDb(notes){
         notes = JSON.stringify(notes);
@@ -31,5 +33,21 @@ module.exports = function(app){
         res.json(req.body);
     });
 
-   
+    // DELETEING NOTES USING ID
+    app.delete("/api/notes/:id", function(req, res){
+        let id = req.params.id.toString();
+        console.log(id);
+        for (i=0; i < notesList.length; i++){
+           
+            if (notesList[i].id == id){
+                res.send(notesList[i]);
+                notesList.splice(i,1);
+                break;
+            }
+        }
+
+    // Write notes data to database
+        addToDb(notesList);
+
+    });
 };
