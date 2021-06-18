@@ -3,7 +3,7 @@
 ## Description
 This application is to write, save, and delete notes. This NodeJS application uses an Express backend to save and get note list.
 
-Here is a deployment link to Heroku from this GitHub repo. [Live NoteTaker App] https://syed-notetaker.herokuapp.com/
+Here is a deployment link to Heroku from this GitHub repo. ![Live NoteTaker App] https://syed-notetaker.herokuapp.com/
 
 
 ![NoteTaker homepage](public/assets/images/homepage.PNG) 
